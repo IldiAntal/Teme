@@ -18,9 +18,7 @@ public class CauciucService {
             }
         }
         return foundCauciuc;
-
     }
-
 
     private void initLocalCauciucs() {
 

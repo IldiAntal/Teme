@@ -13,6 +13,8 @@ public class SearchService {
 
         if(searchRequest != null) {
             searchItem = this.cauciucService.findCauciuc(searchRequest.numeCauciuc);
+
+
         }
 
         return searchItem;
